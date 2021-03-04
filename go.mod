@@ -118,19 +118,19 @@ require (
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.6.1
 	github.com/syndtr/gocapability v0.0.0-20180916011248-d98352740cb2
+	github.com/yuin/goldmark v1.3.2 // indirect
 	github.com/zclconf/go-cty v1.4.1
 	github.com/zclconf/go-cty-yaml v1.0.2
 	go.opencensus.io v0.22.1-0.20190713072201-b4a14686f0a9 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/exp v0.0.0-20191030013958-a1ab85dbe136 // indirect
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
-	golang.org/x/mod v0.3.0 // indirect
-	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
-	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/sys v0.0.0-20200728102440-3e129f6d46b1
-	golang.org/x/text v0.3.3-0.20200306154105-06d492aade88 // indirect
+	golang.org/x/mod v0.4.1 // indirect
+	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sys v0.0.0-20210304152209-afaa3650a925
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
-	golang.org/x/tools v0.0.0-20200522201501-cb1345f3a375 // indirect
+	golang.org/x/tools v0.1.0 // indirect
 	google.golang.org/api v0.13.0 // indirect
 	google.golang.org/genproto v0.0.0-20200302123026-7795fca6ccb1 // indirect
 	google.golang.org/grpc v1.27.1
