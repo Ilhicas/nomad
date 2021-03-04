@@ -157,14 +157,14 @@ func New(ac *Config) (*API, error) {
 	}
 
 	a := &API{
-		apiURL:    apiURL,
-		key:       key,
-		app:       app,
-		accountID: acctID,
-		caCert:    ac.CACert,
-		tlsConfig: ac.TLSConfig,
-		Debug:     ac.Debug,
-		Log:       ac.Log,
+		apiURL:                apiURL,
+		key:                   key,
+		app:                   app,
+		accountID:             acctID,
+		caCert:                ac.CACert,
+		tlsConfig:             ac.TLSConfig,
+		Debug:                 ac.Debug,
+		Log:                   ac.Log,
 		useExponentialBackoff: false,
 	}
 

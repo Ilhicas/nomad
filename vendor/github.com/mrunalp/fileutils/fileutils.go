@@ -22,7 +22,7 @@ func CopyFile(source string, dest string) error {
 
 	uid := int(st.Uid)
 	gid := int(st.Gid)
-	modeType := si.Mode()&os.ModeType
+	modeType := si.Mode() & os.ModeType
 
 	// Handle symlinks
 	if modeType == os.ModeSymlink {
