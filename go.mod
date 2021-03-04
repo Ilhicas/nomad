@@ -1,4 +1,4 @@
-module github.com/Ilhicas/nomad
+module github.com/hashicorp/nomad
 
 go 1.15
 
